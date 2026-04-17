@@ -1,0 +1,27 @@
+package com.example.memosystem;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.ListView;
+import android.widget.Toolbar;
+import com.example.memosystem.activity.AddActivity;
+import com.example.memosystem.activity.ChangePwdActivity;
+import com.example.memosystem.activity.ConnectToDjiActivity;
+import com.example.memosystem.activity.ManageActivity;
+import com.example.memosystem.activity.MesActivity;
+import com.example.memosystem.activity.WebActivity;
+import com.example.memosystem.activity.Web_bb1;
+import com.example.memosystem.adapter.RecordAdapter;
+import com.example.memosystem.bean.Record;
+import com.example.memosystem.dao.AdminDao;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.navigation.NavigationView;
+import java.util.ArrayList;
+import java.util.List;
+public class fly_call extends AppCompatActivity {
